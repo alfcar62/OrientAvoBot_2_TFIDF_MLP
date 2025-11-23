@@ -122,7 +122,8 @@
               "La vicepreside si chiama Laura Panaro",
               "La vicepreside si chiama Laura Panaro", 
               "La vicepreside è la prof.ssa Laura Panaro"
-            ],
+            ]
+          },
          {
             "tag": "QuantiStudenti",
             "patterns": [  
@@ -357,6 +358,27 @@
   "responses": [
     "Puoi consultare la mappa della palestra qui: <a href=https://openlevelup.net/?l=0#21/45.07062/7.69238 \"\" target=\"_blank\">Apri la mappa</a>",
     "Ecco la mappa dettagliata della palestra : <a href=\"https://openlevelup.net/?l=0#21/45.07062/7.69238 \" target=\"_blank\">Clicca qui</a>"
+]
+},
+{
+  "tag": "avogreen",
+  "patterns": [
+    "progetti ambientali?",
+    "fate qualcosa per l'ambiente?",
+    "ambiente?",
+    "ecologia?",
+    "salvaguardia ambiente?",
+    "mobilità?",
+    "cosa fate per la mobilità?",
+    "cosa fate per la sostenibilità?",
+    "sostenibilità?",
+    "come migliorare l'ambiente?",
+    "salvaguardia ambiente?"
+  ],
+  "responses": [
+    "In Avogadro c'è il progetto AVOGREEN, per una scuola sostenibile",
+    "Grazie al  progetto AvoGreen la scuola fa parte della rete delle scuole eco attive della Regione Piemonte",
+    "Il progetto AvoGreen si occupa di rendere la scuola più sostenibile"
 ]
 },
 {
