@@ -3,8 +3,9 @@
         {
             "tag": "saluto",
             "patterns": [
+                "Ciao Gustavo",
                 "Ciao",
-                "Ciao!",
+                "Chi sei?",
                 "Buongiorno.",
                 "Buongiorno!",
                 "Salve", 
@@ -21,9 +22,9 @@
             ],
             "responses": [
                 "Ciao! Questa è l'Avogadro, la nostra scuola, cosa vuoi sapere?",
-                "Ciao! Come posso aiutarti oggi per conoscere l'Avogadro?",
+                "Ciao! Sono Gustavo,  come posso aiutarti oggi per conoscere l'Avogadro?",
                 "Benvenuto! Ti serve un consiglio per orientarti in Avogadro?",
-                "Ciao, tutto bene? Come posso aiutarti per conoscere l'Avogadro?",
+                "Ciao, sono Gustavo,  tutto bene? Come posso aiutarti per conoscere l'Avogadro?",
                 "Ciao, come posso aiutarti in Avogadro ?",
                 "Ciao, hai bisogno di un consiglio sull'Avogadro ?"
             ]
@@ -48,10 +49,10 @@
                 "Cosa devo fare?"
             ],
             "responses": [
-                "Ciao! Sono Avo-Bot e posso aiutarti a conoscere meglio la nostra scuola",
+                "Ciao! Sono Gustavo, un bot automatico e posso aiutarti a conoscere meglio la nostra scuola",
                 "Benvenuto! Ti serve un consiglio?",
                 "Ciao, tutto bene? Come posso aiutarti per orientarti?",
-                "Ciao, come posso aiutarti per migliorare l'ambiente?",
+                "Ciao, sono GustAvo, come posso aiutarti per conoscere meglio la nostra scuola?",
                 "Ciao, cosa vuoi sapere della nostra scuola?"
             ]
         },
@@ -121,8 +122,7 @@
               "La vicepreside si chiama Laura Panaro",
               "La vicepreside si chiama Laura Panaro", 
               "La vicepreside è la prof.ssa Laura Panaro"
-            ]
-           },
+            ],
          {
             "tag": "QuantiStudenti",
             "patterns": [  
@@ -167,8 +167,7 @@
             ],
             "responses": [
               "Puoi essere più preciso?",
-              "Nella nostra scuola ci sono quattro sezioni di informatica, tre di liceo, una di meccanico ed una di elettrotecnica. Esiste anche un progetto Cambridge in lingua inglese",
-              "xxxxxxx"
+              "Nella nostra scuola ci sono quattro sezioni di informatica, tre di liceo, una di meccanico ed una di elettrotecnica. Esiste anche un progetto Cambridge in lingua inglese"
             ]
            },
            {
@@ -227,8 +226,8 @@
                 "Grazie, a dopo"
             ],
             "responses": [
-                "Grazie a te! Ogni azione sostenibile conta!",
-                "Di nulla! Continua a fare la differenza per l'ambiente!"
+                "Grazie a te! Quando vuoi altre informazioni chiamami!",
+                "Di nulla! Se vuoi altre informazioni chiamami ancora!"
             ]
         },
           {
