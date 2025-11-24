@@ -151,26 +151,29 @@ function animateStop() {
 function botSpeak(text) {
   const voiceEnabled = voiceToggle.checked;
 
-  // Mostra messaggio comunque
-  const bubble = document.createElement("div");
-  bubble.className = "msg bot";
-  bubble.innerHTML = `<span class="strong">GustAvo:</span> ${text}`;
-  messages.appendChild(bubble);
+  // Mostra sempre il messaggio completo con link
+  const p = document.createElement("div");
+  p.className = 'msg bot';
+  p.innerHTML = `<strong>GustAvo:</strong> ${text}`;
+  messages.appendChild(p);
   messages.scrollTop = messages.scrollHeight;
 
-  // Se voce OFF → stop
-  if (!voiceEnabled) return;
+  if (!voiceEnabled) return; // Se la voce è disattivata, esce qui
 
-  const msg = new SpeechSynthesisUtterance(text);
-  msg.lang = "it-IT";
+  // Sostituisce tutti i link con una frase più naturale per la sintesi vocale
+  const speakText = text.replace(/https?:\/\/\S+/g, "link al sito web");
+
+  const msg = new SpeechSynthesisUtterance(speakText);
+  msg.lang = 'it-IT';
   msg.pitch = 1.6;
   msg.rate = 1.15;
 
-  msg.onstart = animateStart;
-  msg.onend = animateStop;
+  msg.onstart = () => animateMouthStart();
+  msg.onend = () => animateMouthStop();
 
   window.speechSynthesis.speak(msg);
 }
+
 
 // ----------------- AUDIO MICROFONO -----------------
 let recognition, recognizing = false;
