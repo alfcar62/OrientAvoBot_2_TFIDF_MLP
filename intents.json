@@ -251,6 +251,24 @@
                 "Arrivederci! Ricorda di passare a trovarci!"
             ]
         },
+		{
+            "tag": "trasporti",
+            "patterns": [
+				"Quali sono le fermate presenti vicino all'Avo?",
+				"Come raggiungere la scuola?",
+				"Quali sono i mezzi più vicini?",
+				"Come posso raggiungere l'Avogadro?",
+				"Come posso arrivare a scuola?",
+				"Che mezzi posso usare per arrivare a scuola?",
+				"Quali tram posso prendere per arrivare a scuola?",
+				"Quali pullman posso prendere per arrivare a scuola?",
+            ],
+            "responses": [
+				"Puoi prendere il 16, 18, 68, 6, 13, 56, 61, 3, 8",
+				"Dalla stazione Porta Nuova puoi prendere il 6, 61, 68 e il 18",
+				"Dalla stazione Porta Susa puoi prendere il 56 e il 13"
+            ]
+        },
 {
   "tag": "mappa_scuola",
   "patterns": [
