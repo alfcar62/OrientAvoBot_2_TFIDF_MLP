@@ -75,7 +75,22 @@
             ],
             "author": "A.Carlone"
         },
-             {
+          {
+            "tag": "studiare_informatica",
+            "patterns": [  
+                "Cosa si studia ad informatica?",
+                "Cosa si insegna ad informatica?",
+                "Percorso di studi di informatica?",
+                "Quali materie si studiano ad informatica?",
+                "Quale il programma di informatica ",
+                "Quali materie informatica"
+            ],
+            "responses": [
+                "Ti consiglio di navigare sul sito della scuola e scegliere la specializzazione informatica per avere tutte le informazioni"
+            ],
+            "author": "A.Carlone"
+        },
+       {
             "tag": "dipartimenti",
             "patterns": [  
                 "Quali dipartimenti ci sono?",
@@ -83,11 +98,33 @@
                 "Quali dipartimenti?",
                 "Quanti dipartimenti?",
                 "Dipartimenti"
+               
             ],
             "responses": [
               "In Avogadro ci sono 4 dipartimenti: Informatica, Meccanica, Elettrotecnica, Liceo",
               "In Avogadro ci sono i dipartimenti di  Informatica, Meccanica, Elettrotecnica, Liceo",
               "Ci  sono i  seguenti dipartimenti:  Informatica, Meccanica, Elettrotecnica, Liceo"
+            ],
+            "author": "A.Carlone"
+        },
+         {
+            "tag": "indirizzi",
+            "patterns": [  
+                "Quali indirizzi ci sono?",
+                "Quali indirizzi avete?",
+                "Quali indirizzi?",
+                "Quanti indirizzi?",
+                "indirizzi",
+                "Quali specializzazioni ci sono?",
+                "Quali specializzazioni avete?",
+                "Quali specializzazioni?",
+                "Quante specializzazioni?",
+                "specializzazioni" 
+            ],
+            "responses": [
+              "In Avogadro ci sono 4 indirizzi: Informatica e telecomunicazioni, Meccanica, Meccatronica ed Energia, Elettrotecnica ed Elettronica, Liceo scientifico scienze applicate, Cambridge international school",
+              "In Avogadro gli indirizzi di studio sono: Informatica e telecomunicazioni, Meccanica, Meccatronica ed Energia, Elettrotecnica ed Elettronica, Liceo scientifico scienze applicate, Cambridge international school",
+              "Ci  sono i  seguenti indirizzi di studio:  Informatica e telecomunicazioni, Meccanica, Meccatronica ed Energia, Elettrotecnica ed Elettronica, Liceo scientifico scienze applicate, Cambridge international school"
             ],
             "author": "A.Carlone"
         },
@@ -219,11 +256,31 @@
                 "Cambridge?",
                 "Corso Cambridge?",
                 "Progetto Cambridge?",
-                 "Corsi in lingua inglese?" 
+                "Corsi in lingua inglese?" 
             ],
             "responses": [
               "Esiste un progetto  Cambridge del liceo e tecnico Informtico che svolge lezioni in lingua inglese",
-              "Nella nostra scuola è attivo un progetto  Cambridge in lingua inglese, per ora per Liceo e Tecnico Informatico"
+              "Nella nostra scuola è attivo un progetto  Cambridge in lingua inglese, per ora per Liceo e Tecnico Informatico",
+              "il programma Cambridge arricchisce  il curriculum italiano con un approccio metodologico che si distingue dall’offerta formativa nazionale. Nella nostra scuola, negli indirizzi LICEO SCIENTIFICO opz. SCIENZE APPLICATE CAMBRIDGE e TECNICO INFORMATICA E TELECOMUNICAZIONI CAMBRIDGE, materie come la Biologia, la Chimica, la Fisica, l’Informatica verranno insegnate in Inglese seguendo i programmi corrispondenti Cambridge (cosiddetti syllabus).",
+              "per sapere di più sul progetto Cambridge vai sul sito della scuola"
+            ],
+            "author": "A.Carlone"
+           },
+         {
+            "tag": "Serale",
+            "patterns": [  
+                "Cosa si fa al Serale?",
+                "Sezione serale?",
+                "C'è unm corso serale?",
+                "Cos'è il serale?",
+                "Cosa si fa al serale?",
+                "serale?",
+                "Studenti lavoratori"
+            ],
+            "responses": [
+              "Esiste un percorso di studi serale per studenti lavoratori  che comprende il biennio e le specializzazioni di Informatica e telecomunicazioni, Elettrotecnica ed Elettronica, Meccanica e Meccatronica",
+              "Nella nostra scuola è attivo un corso serale per studenti lavoratori",
+              "per sapere di più sul corso serale  vai sul sito della scuola"
             ],
             "author": "A.Carlone"
            },
