@@ -1,5 +1,9 @@
-# EcoAvoBot (versione leggera con scikit-learn)
-#  classificatore scikit-learn + TF-IDF
+  # OrientAvoBot (GustAVO) (versione leggera con scikit-learn)
+  Chatbot per orientarsi a scuola, sviluppata in IIS Avogadro (Torino)
+  con il supporto degli studenti e di chatGPT (vibe Coding).
+  Obiettivo: Sperimentare python e AI per un progetto concreto.
+  Utilizza classificatore scikit-learn con MLPClassifier che prende TF-IDF come input e predice l'intents
+  La rete neurale è piccola: un solo hidden layer da 10 neuroni.
 
 ## 🚀 Avvio rapido
 
@@ -13,10 +17,10 @@
    python3 app.py
    ```
 
-3. Apri `index.html` in un browser.
+3. Apri index.html in un browser  (port 5000)
 
 ## 📂 Struttura
-- app.py → server Flask con classificatore TF-IDF
+- app.py → server Flask con scikit-learn e classificatore MLPClassifier che prende in input TF-IDF
 - intents.json → base di conoscenza (intenti e risposte)
 - index.html → interfaccia chat
 - requirements.txt → librerie necessarie
