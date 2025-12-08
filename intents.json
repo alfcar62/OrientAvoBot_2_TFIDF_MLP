@@ -119,7 +119,11 @@
                 "Quali specializzazioni avete?",
                 "Quali specializzazioni?",
                 "Quante specializzazioni?",
-                "specializzazioni" 
+                "specializzazioni",
+                "Cosa si insegna a scuola?",
+               "Quali insegnamenti?",
+              "Cosa si impara a scuola?",
+              "imparare?" 
             ],
             "responses": [
               "In Avogadro ci sono 4 indirizzi: Informatica e telecomunicazioni, Meccanica, Meccatronica ed Energia, Elettrotecnica ed Elettronica, Liceo scientifico scienze applicate, Cambridge international school",
@@ -271,7 +275,7 @@
             "patterns": [  
                 "Cosa si fa al Serale?",
                 "Sezione serale?",
-                "C'è unm corso serale?",
+                "C'è un corso serale?",
                 "Cos'è il serale?",
                 "Cosa si fa al serale?",
                 "serale?",
@@ -352,7 +356,7 @@
             "responses": [
               "La scuola si trova in corso S.Maurizio 8, in pieno centro di Torino",
               "La scuola si trova in corso S.Maurizio 8,e facilmente raggiungibile con treno, tram e bus",
-               "La scuola si trova in corso S.Maurizio 8,e facilmente raggiungibile con treno, tram e bus, c'è anche un ampio cortile con posti per biciclette e monopattini"
+              "La scuola si trova in corso S.Maurizio 8,e facilmente raggiungibile con treno, tram e bus, c'è anche un ampio cortile con posti per biciclette e monopattini"
             ],
             "author": "A.Carlone"
            },
@@ -375,7 +379,6 @@
             ],
             "author": "A.Carlone"
            },
-
         {
             "tag": "grazie",
             "patterns": [
@@ -642,7 +645,25 @@
   ],
   "responses": [
     "Puoi consultare il sito web della scuola: <a href=\"https://www.itisavogadro.edu.it \" target=\"_blank\">Apri il sito Web</a>",
-    "Ecco la mappa dettagliata della scuola: <a href=\"https://www.itisavogadro.edu.it \" target=\"_blank\">Clicca qui</a>"
+    "Ecco il sito Web della scuola: <a href=\"https://www.itisavogadro.edu.it \" target=\"_blank\">Clicca qui</a>"
+],
+"author": "A.Carlone"
+},
+{
+  "tag": "orari",
+  "patterns": [
+    "Quali gli orari?",
+    "Calendario scolastico e orari?",
+    "Orario scolastico?",
+    "Orari",
+    "Ore?",
+    "A che ora si va a scuola?",
+    "A che ora si entra?"
+  ],
+  "responses": [
+    "Le lezioni del mattino iniziano alle 8 e normalmente finiscono alle 13, ma vi sono alcune classi chr rientrano il pomeriggio",
+    "Normalmente dalle 8 alle 13 con eventuali rientri al pomeriggio dalle 14 alle 17",
+    "Normalmente dalle 8 alle 13 ma puoi consultare gli orari sul sito Web della scuola"
 ],
 "author": "A.Carlone"
 }
