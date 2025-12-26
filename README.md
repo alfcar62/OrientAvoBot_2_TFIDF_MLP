@@ -28,3 +28,13 @@
 ## 📝 Note
 - Modifica `intents.json` per aggiungere nuovi intenti o migliorare quelli esistenti.
 - Le risposte vengono scelte casualmente dall'elenco `responses` per ogni intent.
+
+
+## Tecnologie
+- Python
+- Flask
+- scikit-learn
+- TF-IDF
+- Rete neurale MLP
+
+
